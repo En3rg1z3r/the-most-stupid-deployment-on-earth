@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata: 
+  name: user-config
+  namespace: user-ui
+data:
+  db-url: user-service.user-ui
